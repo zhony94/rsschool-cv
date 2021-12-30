@@ -32,7 +32,25 @@ body {
 
 .section-profile {
     display: flex;
+    justify-content: space-around;
     width: 100%;
+    
+}
+
+.section-profile-photo {
+    width: 200px;
+    height: 220px;
+    border-radius: 20%;
+}
+
+.section-profile-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-profile-contacts {
+    display: inline;
 }
 
 .main-container {
@@ -80,4 +98,20 @@ body {
     line-height: 50px;
     text-decoration: none;
     transition: .3s;
+}
+
+.contacts-list {
+    padding: 0 40px;
+    line-height: 50px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.contacts-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 100%;
 }
