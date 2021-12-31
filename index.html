@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>    
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#profile" class="nav-link">Profile</a></li>
+                    <li><a href="#summary" class="nav-link">Summary</a></li>
+                    <li><a href="#contacts" class="nav-link">Contacts</a></li>                    
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#code" class="nav-link">Code</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#courses" class="nav-link">Courses</a></li>
+                    <li><a href="#languages" class="nav-link">Languages</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                </ul>
+            </nav>    
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="section-profile" id="profile">
+                <img src="assets/img/myphoto.jpg" alt="my photo" class="section-profile-photo">
+                <div class="section-profile-info">
+                    <h1 class="section-profile-name">Zhanibek Madibekov</h1>
+                    <h2 class="section-profile-position">Junior Front-End Developer</h2>
+                </div>
+            </section>                 
+            <section class="container section-profile-summary" id="summary">
+                <p>A positive, hardworking and dedicated Mechanical Engineer with an outstanding academic background, who possesses excellent presentation skills and can prepare comprehensive documentation and reports as required. Works well both independently and as part of a team, demonstrating the motivation and organization required to meet demanding targets. Combines an analytical and professional approach with excellent interpersonal skills and can communicate concisely at all levels. </p>
+                <p>During free time from work, trying to teach myself skills required to become a frontend developer
+                </p>
+            </section>            
+            <section class="container contacts-main" id="contacts">
+                <ul class=" main-container">
+                    <li class="contacts-list">+7 708 818 25 69</li>
+                    <li class="contacts-list">zh.madibekov@hotmail.com</li>
+                    <li class="contacts-list"><a href="https://github.com/zhony94" title="github">zhony94</a></li>
+                    <li class="contacts-list">Almaty, Kazakhstan</li>
+                </ul>          
+            </section>
+            <section class="container section education" id="education">
+                <h2 class="section-title">Education</h2>
+                <p><span style="font-weight: 700;">University of Nottingham</span> - Master of Engineering (MEng) in Mechanical Engineering</p>
+                <p class="year">Final Year Projects</p>
+                <ul>                    
+                    <li>Numerical Simulation of Combustion in a confined Swirl Flow with different fuels</li>
+                    <li>Light Weight Three DOF Planar Industrial Manipulator</li>
+                </ul>
+            </section>
+            <section class="container section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="skills-list">
+                    <li class="skills">HTML5, CSS3</li>
+                    <li class="skills">JavaScript Basics</li>
+                    <li class="skills">Git</li>
+                    <li class="skills">GitHub</li>
+                    <li class="skills">Team Player</li>
+                    <li class="skills">Detail-oriented</li>
+                    <li class="skills">Strong Analytical Ability</li>
+                    <li class="skills">Leadership Skills</li>
+                    <li class="skills">Excellent Verbal Skills</li>
+                </ul>
+            </section>
+            <section class="container section code" id="code">
+                <h2 class="section-title">Code</h2>
+                <pre><code>
+                    // Calcualate the area of a triangle
+
+                    const side1 = parseInt(prompt('Enter side1: '));
+                    const side2 = parseInt(prompt('Enter side2: '));
+                    const side3 = parseInt(prompt('Enter side3: '));
+                    
+                    // calculate the semi-perimeter
+                    const s = (side1 + side2 + side3) / 2;
+                    
+                    //calculate the area
+                    const areaValue = Math.sqrt(
+                      s * (s - side1) * (s - side2) * (s - side3)
+                    );
+                    
+                    console.log(
+                      `The area of the triangle is ${areaValue}`
+                    );
+                    </code> 
+                </pre>
+            </section>        
+            <section class="container section" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <ul>
+                    <li><span style="font-weight: 700;">RS Schools:</span> «JavaScript/Front-end. Stage 0»</li>
+                    <li><span style="font-weight: 700;">freeCodeCamp:</span> Responsive Web Design</li>
+                </ul>
+            </section>
+            <section class="container section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul>
+                    <li><span style="font-weight: 700;">English</span> - C2 Proficient - <a href="https://efset.org/cert/9W6thg">EF SET Score</a></li>
+                    <li><span style="font-weight: 700;">Russian</span> - Native</li>
+                    <li><span style="font-weight: 700;">Kazakh</span> - Native</li>
+                </ul>
+            </section>
+            <section class="container section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <ul class="list">
+                    <li><span style="font-weight: 700;">RS Schools: </span><a href="https://zhony94.github.io/rsschool-cv/cv" target="_blank">CV</a> </li>                    
+                </ul>
+            </section>       
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <div> © 2021  <a href="https://github.com/zhony94" class="nav-link" target="_blank" title="github">zhony94</a></div>
+            <a href="https://rs.school/js/" target="_blank">
+                <img src="./assets/img/course-logo.svg" alt="" class="course-link">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
+
+
