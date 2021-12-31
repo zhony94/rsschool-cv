@@ -52,69 +52,80 @@
                     <li class="contacts-list">Almaty, Kazakhstan</li>
                 </ul>          
             </section>
-
+            <section class="container section education" id="education">
+                <h2 class="section-title">Education</h2>
+                <p><span style="font-weight: 700;">University of Nottingham</span> - Master of Engineering (MEng) in Mechanical Engineering</p>
+                <p class="year">Final Year Projects</p>
+                <ul>
+                    
+                    <li>Numerical Simulation of Combustion in a confined Swirl Flow with different fuels</li>
+                    <li>Light Weight Three DOF Planar Industrial Manipulator</li>
+                </ul>
+            </section>
 
             <section class="container section" id="skills">
                 <h2 class="section-title">Skills</h2>
-
-                <ul>
-                    <li>HTML5, CSS3</li>
-                    <li>JavaScript Basics</li>
-                    <li>Git, GitHub</li>
+                <ul class="skills-list">
+                    <li class="skills">HTML5, CSS3</li>
+                    <li class="skills">JavaScript Basics</li>
+                    <li class="skills">Git</li>
+                    <li class="skills">GitHub</li>
+                    <li class="skills">Team Player</li>
+                    <li class="skills">Detail-oriented</li>
+                    <li class="skills">Strong Analytical Ability</li>
+                    <li class="skills">Leadership Skills</li>
+                    <li class="skills">Excellent Verbal Skills</li>
                 </ul>
 
             </section>
 
-            <section class="container section" id="code">
+            <section class="container section code" id="code">
                 <h2 class="section-title">Code</h2>
-                <pre>
-                    <code>
-                        um = float(input("Enter a number: "))
-                        if num >= 0:
-                           if num == 0:
-                               print("Zero")
-                           else:
-                               print("Positive number")
-                        else:
-                           print("Negative number"
-                    </code>
+                <pre><code>
+                    // Calcualate the area of a triangle
+
+                    const side1 = parseInt(prompt('Enter side1: '));
+                    const side2 = parseInt(prompt('Enter side2: '));
+                    const side3 = parseInt(prompt('Enter side3: '));
+                    
+                    // calculate the semi-perimeter
+                    const s = (side1 + side2 + side3) / 2;
+                    
+                    //calculate the area
+                    const areaValue = Math.sqrt(
+                      s * (s - side1) * (s - side2) * (s - side3)
+                    );
+                    
+                    console.log(
+                      `The area of the triangle is ${areaValue}`
+                    );
+                    </code> 
                 </pre>
             </section>
 
-            <section class="container section" id="education">
-                <h2 class="section-title">Education</h2>
-                <p>University of Nottingham - Master of Engineering (MEng) in Mechanical Engineering</p>
-            </section>
+            
 
             <section class="container section" id="courses">
                 <h2 class="section-title">Courses</h2>
                 <ul>
-                    <li>RS Schools Course «JavaScript/Front-end. Stage 0»</li>
-                    <li>freeCodeCamp: Responsive Web Design</li>
+                    <li><span style="font-weight: 700;">RS Schools:</span> «JavaScript/Front-end. Stage 0»</li>
+                    <li><span style="font-weight: 700;">freeCodeCamp:</span> Responsive Web Design</li>
                 </ul>
             </section>
-
-
             <section class="container section" id="languages">
                 <h2 class="section-title">Languages</h2>
                 <ul>
-                    <li>English - C2 Proficient - [EF SET Score](https://efset.org/cert/9W6thg)</li>
-                    <li>Russian - Native</li>
-                    <li>Kazakh - Native</li>
+                    <li><span style="font-weight: 700;">English</span> - C2 Proficient - <a href="https://efset.org/cert/9W6thg">EF SET Score</a></li>
+                    <li><span style="font-weight: 700;">Russian</span> - Native</li>
+                    <li><span style="font-weight: 700;">Kazakh</span> - Native</li>
                 </ul>
             </section>
             <section class="container section" id="projects">
                 <h2 class="section-title">Projects</h2>
-                <ul>
+                <ul class="list">
                     <li>CV</li>                    
                 </ul>
-            </section>
-            
-
-            
-
-
-
+            </section>       
         </div>
 
     </main>

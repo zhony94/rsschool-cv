@@ -16,24 +16,14 @@ body {
     justify-content: space-between;
 }
 
-h1 {
-    font-size: 40px;
-    font-weight: 700;
-    text-align: center;
-    color: #710087;       
-}
-
-h3 {
-    font-size: 32px;
-    text-align: center;
-}
-
 h2 {
     text-decoration: underline;
+    text-underline-offset: 3px;
 }
     
 .contacts-list {
     list-style: none;
+    font-weight: 700;
 }
 
 
@@ -45,6 +35,7 @@ h2 {
 .container {
     max-width: 1440px;
     margin: 0 auto;
+    padding: 0 25px;
 }
 
 .section-profile {
@@ -104,21 +95,24 @@ h2 {
     
 }
 
-.section-profile-name > h1 {
-    font-size: 50px;
-    margin: 0px;
+.section-profile-name  {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #710087;  
 }
 
 .section-title {
     text-transform: uppercase;
     letter-spacing: 10px;
-    font-weight: bold;
+    font-weight: bold;   
     color: #710087;    
 }
 
 .section-profile-position {
     letter-spacing: 3px;
-    font-size: 16px;
+    font-size: 20px;
+    text-align: center;
 }
 
 .nav-list {
@@ -175,4 +169,50 @@ h2 {
     width: 100%;
     justify-content: center;
     align-items: center;    
+}
+
+.skills {
+    background-color:#1b2f40;
+    color: white;
+    width: 180px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 5px 2px;
+    line-height:30px;
+     
+}
+
+.skills-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    flex-wrap: wrap;
+}
+
+.code {
+    padding: 0;
+    margin: 0;
+}
+
+
+.education {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 0px;
+}
+
+.year {
+    font-weight: 700;
+    font-style: italic;
+    font-size: 14px;
+    color: #710087;
+    margin: 0px;
+}
+
+.list {
+    text-decoration: none;
+    transition: .3s;
 }
