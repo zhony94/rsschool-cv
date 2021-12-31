@@ -21,6 +21,10 @@ h2 {
     text-underline-offset: 3px;
 }
     
+.contacts-list {
+    list-style: none;
+    font-weight: 700;
+}
 
 .header {
     background-color: #1b2f40;
@@ -28,20 +32,25 @@ h2 {
 
 .container {
     max-width: 1440px;
-    margin: 0 auto;         
-}
-
-.summary-layout {
-    padding: 0 60px 0 0;
+    margin: 0 auto;
+    padding: 0 25px;
 }
 
 .section-profile {
     display: flex;
     justify-content: space-around;
     width: 100%;   
-    padding-bottom: 20px;    
-    border-bottom: 5px solid #1b2f40;
-    margin-bottom: 20px;       
+}
+
+.section-profile-summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;    
+    border: 5px solid #1b2f40;
+    border-right: none;
+    border-left: none;    
 }
 
 .section-profile-photo {
@@ -55,6 +64,10 @@ h2 {
     flex-direction: column;
     justify-content: center;
     line-height: 5px;
+}
+
+.section-profile-contacts {
+    display: inline;
 }
 
 .main-container {
@@ -115,27 +128,26 @@ h2 {
     transition: .3s;
 }
 
-.text-bold {
-    font-weight: 700;
-}
-
-.contacts-list {    
+.contacts-list {
+    padding: 0 40px;
+    line-height: 50px;
     text-decoration: none;
-    line-height: 30px;
     transition: .3s;
 }
 
 .contacts-main {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;   
-    list-style: none;    
-  
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+    border-bottom: 5px solid #1b2f40;
+    height: 50px;
 }
 
 .footer {
     background-color: #1b2f40;    
-    margin-top: 40px;
 }
 
 .footer-container {
@@ -145,7 +157,7 @@ h2 {
     margin: 0 auto;
     color: white;
     line-height: 50px;
-    padding: 0 100px;   
+    padding: 0 100px;
 }
     
 .display-none {
@@ -167,7 +179,8 @@ h2 {
     border-radius: 5px;
     text-align: center;
     margin: 5px 2px;
-    line-height:30px;     
+    line-height:30px;
+     
 }
 
 .skills-list {
