@@ -1,7 +1,7 @@
 # Zhanibek Madibekov
 
 **********************
-### Junior Frontend Developer
+### Junior Frontend Developer / Mechanical Engineer
 **********************
 ### Contact information:
 
